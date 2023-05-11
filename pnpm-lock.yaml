@@ -34,8 +34,8 @@ devDependencies:
     specifier: 1.0.0
     version: 1.0.0
   grunt-contrib-jshint:
-    specifier: 3.0.0
-    version: 3.0.0
+    specifier: 3.2.0
+    version: 3.2.0
   grunt-contrib-uglify:
     specifier: 5.0.1
     version: 5.0.1
@@ -1988,13 +1988,13 @@ packages:
       file-sync-cmp: 0.1.1
     dev: true
 
-  /grunt-contrib-jshint@3.0.0:
-    resolution: {integrity: sha512-o0V3HNK54+w2Lss/AP0LsAUCEmPDQIcgsDFvTy0sE8sdPXq/8vHdNdMEitK9Wcfoq7H6v02v6soiiwJ0wavT7A==}
+  /grunt-contrib-jshint@3.2.0:
+    resolution: {integrity: sha512-pcXWCSZWfoMSvcV4BwH21TUtLtcX0Ms8IGuOPIcLeXK3fud9KclY7iqMKY94jFx8TxZzh028YYtpR+io8DiEaQ==}
     engines: {node: '>=10'}
     dependencies:
       chalk: 4.1.2
       hooker: 0.2.3
-      jshint: 2.12.0
+      jshint: 2.13.6
     dev: true
 
   /grunt-contrib-uglify@5.0.1:
@@ -2782,8 +2782,8 @@ packages:
       lodash: 3.10.1
     dev: true
 
-  /jshint@2.12.0:
-    resolution: {integrity: sha512-TwuuaUDmra0JMkuqvqy+WGo2xGHSNjv1BA1nTIgtH2K5z1jHuAEeAgp7laaR+hLRmajRjcrM71+vByBDanCyYA==}
+  /jshint@2.13.6:
+    resolution: {integrity: sha512-IVdB4G0NTTeQZrBoM8C5JFVLjV2KtZ9APgybDA1MK73xb09qFs0jCXyQLnCOp1cSZZZbvhq/6mfXHUTaDkffuQ==}
     hasBin: true
     dependencies:
       cli: 1.0.1
@@ -2792,7 +2792,6 @@ packages:
       htmlparser2: 3.8.3
       lodash: 4.17.21
       minimatch: 3.0.8
-      shelljs: 0.3.0
       strip-json-comments: 1.0.4
     dev: true
 
@@ -4277,12 +4276,6 @@ packages:
   /shebang-regex@3.0.0:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
-    dev: true
-
-  /shelljs@0.3.0:
-    resolution: {integrity: sha512-Ny0KN4dyT8ZSCE0frtcbAJGoM/HTArpyPkeli1/00aYfm0sbD/Gk/4x7N2DP9QKGpBsiQH7n6rpm1L79RtviEQ==}
-    engines: {node: '>=0.8.0'}
-    hasBin: true
     dev: true
 
   /side-channel@1.0.4:
