@@ -64,8 +64,8 @@ devDependencies:
     specifier: 2.0.2
     version: 2.0.2
   grunt-spritesmith:
-    specifier: 6.9.0
-    version: 6.9.0
+    specifier: 6.10.0
+    version: 6.10.0
   jasmine-core:
     specifier: 3.8.0
     version: 3.8.0
@@ -437,10 +437,6 @@ packages:
 
   /async@0.2.10:
     resolution: {integrity: sha512-eAkdoKxU6/LkKDBzLpT+t6Ff5EtfSF4wx1WfJiPEEV7WNLnDaRXk0oVysiEPm262roaachGexwUv94WhSgN5TQ==}
-    dev: true
-
-  /async@1.5.2:
-    resolution: {integrity: sha512-nSVgobk4rv61R9PUSDtYt7mPVB2olxNR5RWJcAsH676/ef11bUZwvu7+RGYrYauVdDPcO519v68wRhXQtxsV9w==}
     dev: true
 
   /async@2.6.4:
@@ -2123,11 +2119,11 @@ packages:
       lodash: 4.17.21
     dev: true
 
-  /grunt-spritesmith@6.9.0:
-    resolution: {integrity: sha512-u6ZQwiivimm/sz9HalrFiniAZcesIq8eTdqqv2UinZ+eng0Ah3swFK6BvWFFeapzUXYCMHUKBc7a8liGQtn4wg==}
+  /grunt-spritesmith@6.10.0:
+    resolution: {integrity: sha512-vEmw9hH1W4pT860OKYF/uWqAbmEHbvEALChr9iXe2rTn1k1DgN2Dg2SjQukXB8/R9B0rAoacZQ97FtysUGG0cg==}
     engines: {node: '>= 6.0.0'}
     dependencies:
-      async: 1.5.2
+      async: 2.6.4
       spritesheet-templates: 10.5.2
       spritesmith: 3.4.1
       underscore: 1.13.6
