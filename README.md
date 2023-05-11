@@ -1,7 +1,7 @@
 Piskel
 ======
 
-[![Travis Status](https://api.travis-ci.org/piskelapp/piskel.png?branch=master)](https://travis-ci.org/piskelapp/piskel) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](https://gruntjs.com/)
+Forked off [11e0066](https://github.com/piskelapp/piskel/commit/21b8bdd0f3602c455e89f25fb337068fd9ea3a35)
 
 Piskel is an easy-to-use sprite editor. It can be used to create game sprites, animations, pixel-art...
 It is the editor used in **[piskelapp.com](https://www.piskelapp.com)**.
