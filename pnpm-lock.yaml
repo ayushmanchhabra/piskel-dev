@@ -88,8 +88,8 @@ devDependencies:
     specifier: 2.1.16
     version: 2.1.16
   promise-polyfill:
-    specifier: 8.2.0
-    version: 8.2.0
+    specifier: 8.3.0
+    version: 8.3.0
   puppeteer:
     specifier: 20.1.2
     version: 20.1.2
@@ -3741,8 +3741,8 @@ packages:
     engines: {node: '>=0.4.0'}
     dev: true
 
-  /promise-polyfill@8.2.0:
-    resolution: {integrity: sha512-k/TC0mIcPVF6yHhUvwAp7cvL6I2fFV7TzF1DuGPI8mBh4QQazf36xCKEHKTZKRysEoTQoQdKyP25J8MPJp7j5g==}
+  /promise-polyfill@8.3.0:
+    resolution: {integrity: sha512-H5oELycFml5yto/atYqmjyigJoAo3+OXwolYiH7OfQuYlAqhxNvTfiNMbV9hsC6Yp83yE5r2KTVmtrG6R9i6Pg==}
     dev: true
 
   /prompt@0.2.14:
