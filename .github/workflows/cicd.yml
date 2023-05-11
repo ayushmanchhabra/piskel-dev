@@ -1,0 +1,17 @@
+on:
+  push:
+    branches:
+    - dev
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3.5.2
+      - uses: actions/setup-node@v3.6.0
+        with:
+          node-version: 18
+
+      - run: pnpm install
+      - run: pnpm format
+      - run: pnpm test
