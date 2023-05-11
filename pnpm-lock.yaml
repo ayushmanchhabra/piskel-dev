@@ -73,7 +73,7 @@ devDependencies:
     specifier: 6.3.4
     version: 6.3.4
   karma-chrome-launcher:
-    specifier: ^3.2.0
+    specifier: 3.2.0
     version: 3.2.0
   karma-jasmine:
     specifier: 4.0.2
@@ -94,7 +94,7 @@ devDependencies:
     specifier: 8.2.0
     version: 8.2.0
   puppeteer:
-    specifier: ^20.1.2
+    specifier: 20.1.2
     version: 20.1.2
   rmdir:
     specifier: 1.2.0
