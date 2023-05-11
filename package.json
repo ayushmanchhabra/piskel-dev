@@ -33,7 +33,7 @@
     "format": "grunt eslint --fix"
   },
   "devDependencies": {
-    "dateformat": "4.6.3",
+    "date-fns": "2.30.0",
     "fs-extra": "10.0.0",
     "grunt": "1.6.1",
     "grunt-casperjs": "2.2.1",
