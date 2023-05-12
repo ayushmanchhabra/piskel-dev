@@ -46,7 +46,6 @@
     "grunt-contrib-watch": "1.1.0",
     "grunt-eslint": "24.1.0",
     "grunt-include-replace": "5.0.0",
-    "grunt-jscs": "3.0.1",
     "grunt-karma": "4.0.2",
     "grunt-leading-indent": "0.2.0",
     "grunt-nw-builder": "3.8.2",
@@ -56,10 +55,7 @@
     "karma": "6.4.2",
     "karma-chrome-launcher": "3.2.0",
     "karma-jasmine": "4.0.2",
-    "karma-phantomjs-launcher": "1.0.4",
     "load-grunt-tasks": "5.1.0",
-    "phantomjs-polyfill-object-assign": "0.0.2",
-    "phantomjs-prebuilt": "2.1.16",
     "promise-polyfill": "8.3.0",
     "puppeteer": "20.2.0"
   },
@@ -69,8 +65,5 @@
     "toolbar": false,
     "width": 1000,
     "height": 700
-  },
-  "dependencies": {
-    "minimist": "1.2.5"
   }
 }

@@ -12,9 +12,6 @@ module.exports = function(config) {
   piskelScripts.push('test/js/testutils/**/*.js');
   piskelScripts.push('test/js/**/*.js');
 
-  // Polyfill for Object.assign (missing in PhantomJS)
-  piskelScripts.push('./node_modules/phantomjs-polyfill-object-assign/object-assign-polyfill.js');
-
   config.set({
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
