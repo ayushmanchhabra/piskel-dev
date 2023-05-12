@@ -64,8 +64,8 @@ devDependencies:
     specifier: 6.10.0
     version: 6.10.0
   jasmine-core:
-    specifier: 3.99.1
-    version: 3.99.1
+    specifier: 4.6.0
+    version: 4.6.0
   karma:
     specifier: 6.4.2
     version: 6.4.2
@@ -2707,6 +2707,10 @@ packages:
 
   /jasmine-core@3.99.1:
     resolution: {integrity: sha512-Hu1dmuoGcZ7AfyynN3LsfruwMbxMALMka+YtZeGoLuDEySVmVAPaonkNoBRIw/ectu8b9tVQCJNgp4a4knp+tg==}
+    dev: true
+
+  /jasmine-core@4.6.0:
+    resolution: {integrity: sha512-O236+gd0ZXS8YAjFx8xKaJ94/erqUliEkJTDedyE7iHvv4ZVqi+q+8acJxu05/WJDKm512EUNn809In37nWlAQ==}
     dev: true
 
   /jpeg-js@0.4.4:
