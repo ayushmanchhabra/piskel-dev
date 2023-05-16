@@ -57,7 +57,7 @@
     "karma-jasmine": "4.0.2",
     "load-grunt-tasks": "5.1.0",
     "promise-polyfill": "8.3.0",
-    "puppeteer": "20.2.0"
+    "puppeteer": "20.2.1"
   },
   "window": {
     "title": "Piskel",
