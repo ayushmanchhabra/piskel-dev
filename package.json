@@ -1,36 +1,24 @@
 {
   "name": "piskel",
-  "version": "0.15.2-SNAPSHOT",
+  "version": "0.15.2",
   "description": "Pixel art editor",
-  "author": "Julian Descottes <julian.descottes@gmail.com>",
-  "contributors": [
-    "Vincent Renaudin"
-  ],
+  "author": {
+    "name": "Julian Descottes",
+    "url": "https://github.com/juliandescottes"
+  },
   "homepage": "http://github.com/piskelapp/piskel",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "http://github.com/piskelapp/piskel.git"
   },
-  "files": [
-    "dest/prod",
-    "misc/scripts/piskel-root"
-  ],
-  "bin": {
-    "piskel-root": "./misc/scripts/piskel-root",
-    "piskel-cli": "./cli/index.js"
-  },
-  "main": "./dest/prod/index.html",
   "scripts": {
-    "test": "grunt test",
-    "dev": "grunt play",
-    "start": "grunt build && nw",
-    "preversion": "grunt test build",
-    "postversion": "git push && git push --tags && npm publish",
-    "release": "grunt && node ./bin/copy-to-piskel-website",
-    "build": "grunt desktop",
-    "build:mac": "grunt desktop-mac",
-    "format": "grunt eslint --fix"
+    "fmt": "grunt eslint --fix",
+    "e2e": "grunt test",
+    "dev": "grunt play"
+  },
+  "engines": {
+    "node": ">=v20.3.0"
   },
   "devDependencies": {
     "date-fns": "2.30.0",
@@ -48,7 +36,6 @@
     "grunt-include-replace": "5.0.0",
     "grunt-karma": "4.0.2",
     "grunt-leading-indent": "0.2.0",
-    "grunt-nw-builder": "3.8.2",
     "grunt-replace": "2.0.2",
     "grunt-spritesmith": "6.10.0",
     "jasmine-core": "5.0.0",
